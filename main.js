@@ -8,7 +8,7 @@ document.forms["movie"].addEventListener("submit", function (e){
   var inputs = this["movieTitle"].value;
 
   console.log(inputs)
-  const url = `http://www.omdbapi.com/?apikey=7054d985&`+`s=${inputs}`
+  const url = `https://www.omdbapi.com/?apikey=7054d985&`+`s=${inputs}`
 
   console.log(url)
   document.querySelector("#movieCard").innerHTML = ""
